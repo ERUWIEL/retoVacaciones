@@ -29,11 +29,11 @@ function organizeActivities(activities) {
 
 // Demostracion
 const activities = [
-  { name: 'Snorkel', quantity: 5, category: 'Acuaticas' },
-  { name: 'Kayak', quantity: 3, category: 'Acuaticas' },
-  { name: 'Futbol', quantity: 2, category: 'Deportes' },
-  { name: 'Kayak', quantity: 2, category: 'Acuaticas' },
-  { name: 'Tenis', quantity: 4, category: 'Deportes' }
+  { name: 'Pesca', quantity: 5, category: 'Acuaticas' },
+  { name: 'Banana', quantity: 3, category: 'Acuaticas' },
+  { name: 'Pulmonia', quantity: 2, category: 'Terrestre' },
+  { name: 'Banana', quantity: 2, category: 'Acuaticas' },
+  { name: 'Razer', quantity: 4, category: 'Todoterreno' }
 ];
 console.log('corriendo demostracion...');
 console.log(organizeActivities(activities));
